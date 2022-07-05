@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Medicine Dose Tracker
+    </title>
+<!--    Linking CSS-->
+    <link rel = "stylesheet" href="style.css">
+<!--    Including validator-->
+<!--    <script> src="gen_validator" type="text/javascript"</script>-->
+</head>
+
+<body>
+    <h1>Medicine Dose Tracker</h1>
+    <div class="form"?>
+        <h2>
+            Sign-up Here:
+        </h2>
+    <form id = 'register' action = 'register.php' method = 'post' accept-charset="UTF-8">
+        <fieldset>
+        <table>
+            <!--                Full Name-->
+                <label>
+                    Full Name:
+                    <abbr title="This field is mandatory" aria-label="required">*</abbr>
+                </label>
+                <input type="text" name="" placeholder="Enter your name" required>
+                    <br>
+                    <br>
+            </tr>
+
+            <tr>
+            <!--               Email Field-->
+                <label>
+                    Email Address:
+                    <abbr title="This field is mandatory" aria-label="required">*</abbr>
+                </label>
+                <input type="text" email="" placeholder="Enter your email" required>
+                    <br>
+                    <br>
+            </tr>
+            <!--            Password Field-->
+            <tr>
+                <label>
+                    Create a Password:
+                    <abbr title="This field is mandatory" aria-label="required">*</abbr>
+                </label>
+                <input type="password" name="" placeholder="Enter your password" required minlength="6">
+                    <br>
+                    <br>
+            </tr>
+            <tr>
+            <!--                Subscribe option-->
+                <td>
+                    <input type="checkbox" name="Sign-up for emails" value="Sign-up"> Sign-up for emails<br> <input type="checkbox" name="Do not subscribe" value="non-sign-up"> Do not subscribe<br>
+                </td>
+            </tr>
+            <tr>
+            <!--                Summit button-->
+                <td>
+<!--                    TODO: NOT WORKING FOR CHANGING PAGES?-->
+                    <form action="summitPage.php" method="POST">
+                        <input type="submit"/>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+    </form>
+    </div>
+</body>
+
+</html>

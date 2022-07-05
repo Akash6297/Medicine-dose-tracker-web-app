@@ -1,0 +1,27 @@
+h1 {
+    font-family: "American Typewriter";
+    text-align: center;
+    margin-top: 1.0em;
+    background: lightsteelblue;
+    border-radius: 15px;
+}
+
+table {
+    font-family: "Apple Braille";
+    align-content: center;
+}
+
+input:invalid {
+    border: 2px dashed #c00000;
+}
+
+
+input:valid {
+    border: 2px solid black;
+}
+
+fieldset {
+    width : 100%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
